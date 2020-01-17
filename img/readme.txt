@@ -1,0 +1,1 @@
+I denna mapp lägger du de bilder du visar på hemsidan.
