@@ -9,21 +9,14 @@
     justify-content: center;
     align-items: center;
     height: 10vh;
-    background-color: greenyellow;
+    background-color: black;
+    grid-area: na;
 }
 
-.navLinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: absolute;
-    right: 0px;
-    height: 90vh;
-    top: -90vh;
-    background-color: red;
-    align-items: center;
-    width: 20%;
+.photo{
+    grid-area: se;
 }
+
 
 .navActive{
     transform: translateY(100vh);
@@ -31,22 +24,6 @@
 
 .navLinks li {
     list-style: none;
-}
-
-.navLinks a {
-    color: yellow;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: rgb(206, 0, 206);
-    margin: 5px;
-    border-radius: 10%;
 }
 
 .toggle .line1 {
@@ -59,4 +36,109 @@
 
 .toggle .line3{
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+
+@media screen and (max-width: 415px) {
+    
+.wrapper{
+        height: auto;
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "na na na na"
+        "se se se se"
+        "fo fo fo fo"
+        ;
+}
+    
+.img1{
+    background-image: url();
+}
+.img2{
+    background-image: url();
+}
+.img3{
+    background-image: url();
+}
+.img4{
+    background-image: url();
+}
+.img5{
+    background-image: url();
+}
+
+
+
+
+
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.burger div{
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15%;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: -90vh;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+
+}
+
+
+
+@media screen and (min-width: 416px) and (max-width: 1024px) {
+
+.burger div{
+    width: 75px;
+    height: 7px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15%;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: -90vh;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+
 }
