@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.header{
+    height: 10vh;
+    background-color: black;
+    grid-area: he;
+}
+
 .nav{
     display: flex;
     justify-content: center;
@@ -15,6 +21,11 @@
 
 .photo{
     grid-area: se;
+}
+
+.dok{
+    background-color: black;
+    grid-area: fo;
 }
 
 
@@ -73,10 +84,6 @@
 }
 
 
-
-
-
-
 .navLinks a {
     color: white;
     text-decoration: none;
@@ -106,11 +113,44 @@
     width: 100%;
 }
 
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
 }
 
 
 
+
+
+
+
+
+
+
 @media screen and (min-width: 416px) and (max-width: 1024px) {
+
+.wrapper{
+    height: auto;
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "he he he na"
+    "se se se se"
+    "fo fo fo fo"
+    ;
+}
 
 .burger div{
     width: 75px;
@@ -139,6 +179,88 @@
     background-color: black;
     align-items: center;
     width: 100%;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 10px);
+}
+    
+.toggle .line2{
+    opacity: 0;
+}
+    
+.toggle .line3{
+    transform: rotate(45deg) translate(-10px, -20px);
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1025px)  {
+
+.wrapper{
+    height: auto;
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "he he he na"
+    "se se se se"
+    "fo fo fo fo"
+    ;
+}
+
+.burger div{
+    width: 75px;
+    height: 7px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15%;
+}
+    
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+    
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: -90vh;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 15px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-6px, -18px);
 }
 
 }
