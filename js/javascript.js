@@ -7,3 +7,6 @@ function toggleMeny() {
 
 document.querySelector(".burger").addEventListener("click", toggleMeny);
 
+
+
+

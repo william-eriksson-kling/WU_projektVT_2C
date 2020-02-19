@@ -28,6 +28,11 @@
     grid-area: fo;
 }
 
+.logo{  
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+}
 
 .navActive{
     transform: translateY(100vh);
@@ -51,14 +56,17 @@
 
 
 
+
+
+
 @media screen and (max-width: 415px) {
     
 .wrapper{
-        height: auto;
         width: 100vw;
-        height: auto;
+        height: 400vh;
         display: grid;
-        grid-template-rows: 1fr 3fr 1fr;
+        padding-top: 10vh;
+        grid-template-rows: 1fr 40fr 1fr;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
         "na na na na"
@@ -67,11 +75,21 @@
         ;
 }
     
-.img1{
-    background-image: url();
+.logo{
+    position: absolute;
+    top: 70px;
+    right: 50vw;
+    border: 10px solid white;
+}
+.img1{  
+    max-width: 100vw;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    z-index: -1;
 }
 .img2{
-    background-image: url();
+    max-width: 100vw;
 }
 .img3{
     background-image: url();
@@ -83,6 +101,13 @@
     background-image: url();
 }
 
+
+.nav{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
 
 .navLinks a {
     color: white;
