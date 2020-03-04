@@ -84,11 +84,12 @@
 .photo{
     top: 10px;
     margin: 0px;
+    padding: 0px;
 
 }
 .logo{
-    top: 70px;
-    right: 15%;
+    top: 25%;
+    left: 14%;
     position: absolute;
     border: 5px solid white;
     color: white;
@@ -123,11 +124,18 @@
 }
 
 .nav-up {
-    top: -200px;
+    top: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
 }
 
 .nav-down {
     top: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+
 }
 
 .navLinks a {
@@ -177,11 +185,10 @@
 @media screen and (min-width: 416px) and (max-width: 1024px) {
 
 .wrapper{
-    height: auto;
     width: 100vw;
-    height: auto;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
     "he he he na"
@@ -197,6 +204,7 @@
     width: 75vw;
 }
 
+
 .img1{  
     max-width: 100vw;
     position: relative;
@@ -208,13 +216,13 @@
     max-width: 100vw;
 }
 .img3{
-    background-image: url();
+    max-width: 100vw;
 }
 .img4{
-    background-image: url();
+    max-width: 100vw;
 }
 .img5{
-    background-image: url();
+    max-width: 100vw;
 }
 
 

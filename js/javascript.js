@@ -36,7 +36,7 @@ if (st > lastScrollTop && st > navbarHeight){
     // Scroll Up
     // If did not scroll past the document (possible on mac)...
     if(st + $(window).height() < $(document).height()) { 
-      $("header").removeClass("nav-up").addClass("nav-down");
+      $("nav").removeClass("nav-up").addClass("nav-down");
     }
   }
   lastScrollTop = st;
