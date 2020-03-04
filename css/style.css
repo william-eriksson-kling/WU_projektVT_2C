@@ -26,13 +26,19 @@
 .dok{
     background-color: black;
     grid-area: fo;
+    text-align: center;
+    align-items: center;
+}
+
+.rights{
+    font-size: 50px;
 }
 
 .logo{  
-    position: fixed;
     z-index: 2;
     text-align: center;
 }
+
 
 .navActive{
     transform: translateY(100vh);
@@ -63,10 +69,10 @@
     
 .wrapper{
         width: 100vw;
-        height: 400vh;
+        height: 100vh;
         display: grid;
         padding-top: 10vh;
-        grid-template-rows: 1fr 40fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
         "na na na na"
@@ -75,38 +81,53 @@
         ;
 }
     
+.photo{
+    top: 10px;
+    margin: 0px;
+
+}
 .logo{
-    position: absolute;
     top: 70px;
-    right: 50vw;
-    border: 10px solid white;
+    right: 15%;
+    position: absolute;
+    border: 5px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100px;
+    padding: 5px;
 }
 .img1{  
     max-width: 100vw;
     position: relative;
-    text-align: center;
-    justify-content: center;
     z-index: -1;
 }
 .img2{
     max-width: 100vw;
 }
 .img3{
-    background-image: url();
+    max-width: 100vw;
 }
 .img4{
-    background-image: url();
+    max-width: 100vw;
 }
 .img5{
-    background-image: url();
+    max-width: 100vw;
 }
 
 
 .nav{
     position: fixed;
     top: 0px;
-    right: 0px;
-    left: 0px;
+    width: 100vw;
+}
+
+.nav-up {
+    top: -200px;
+}
+
+.nav-down {
+    top: 0px;
 }
 
 .navLinks a {
@@ -153,14 +174,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 @media screen and (min-width: 416px) and (max-width: 1024px) {
 
 .wrapper{
@@ -176,6 +189,34 @@
     "fo fo fo fo"
     ;
 }
+
+.nav{
+    width: 25vw;
+}
+.header{
+    width: 75vw;
+}
+
+.img1{  
+    max-width: 100vw;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    z-index: -1;
+}
+.img2{
+    max-width: 100vw;
+}
+.img3{
+    background-image: url();
+}
+.img4{
+    background-image: url();
+}
+.img5{
+    background-image: url();
+}
+
 
 .burger div{
     width: 75px;
@@ -222,15 +263,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 1025px)  {
 
 .wrapper{
@@ -245,6 +277,33 @@
     "se se se se"
     "fo fo fo fo"
     ;
+}
+
+.img1{  
+    max-width: 100vw;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    z-index: -1;
+}
+.img2{
+    max-width: 100vw;
+}
+.img3{
+    background-image: url();
+}
+.img4{
+    background-image: url();
+}
+.img5{
+    background-image: url();
+}
+
+.nav{
+    width: 25vw;
+}
+.header{
+    width: 75vw;
 }
 
 .burger div{
@@ -277,7 +336,7 @@
 }
 
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 15px);
+    transform: rotate(-45deg) translate(-7px, 15px);
 }
 
 .toggle .line2{
