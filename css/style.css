@@ -33,8 +33,10 @@
     align-items: center;
 }
 
-.rights{
+.contact{
     font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+
 }
 
 .logo{  
@@ -49,6 +51,7 @@
 
 .navActive{
     transform: translateY(100vh);
+    transition: ease 1s;
 }
 
 .navLinks li {
@@ -92,6 +95,7 @@
     top: 10px;
     margin: 0px;
     padding: 0px;
+    font-size: 0px;
 
 }
 .logo{
@@ -131,20 +135,7 @@
     width: 100vw;
 }
 
-.nav-up {
-    top: 0px;
-    position: fixed;
-    top: 0px;
-    width: 100vw;
-}
 
-.nav-down {
-    top: 0px;
-    position: fixed;
-    top: 0px;
-    width: 100vw;
-
-}
 
 .navLinks a {
     color: white;
@@ -174,6 +165,7 @@
     background-color: black;
     align-items: center;
     width: 100%;
+    transition: ease 1s;
 }
 
 .toggle .line1 {
@@ -275,6 +267,7 @@
     background-color: black;
     align-items: center;
     width: 100%;
+    transition: ease 1s;
 }
 
 .toggle .line1 {
@@ -309,7 +302,15 @@
 }
 
 .logo{
-    display: none
+    top: 35%;
+    left: 20%;
+    right: 20%;
+    position: absolute;
+    border: 7px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 175px;
 }
 .logo2{
     display: flex;
@@ -375,6 +376,7 @@
     background-color: black;
     align-items: center;
     width: 100%;
+    transition: ease 1s;
 }
 
 .toggle .line1 {
