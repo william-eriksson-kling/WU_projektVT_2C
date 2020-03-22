@@ -3,6 +3,7 @@ https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
 https://www.youtube.com/watch?v=8nFffpYieBI
 https://stackoverflow.com/questions/10570684/infinite-scrolling-in-both-directions-up-and-down
 https://www.w3schools.com/howto/howto_css_bg_change_scroll.asp
+(Fick inte scrolling att fungera)
 
 Inspo:
 https://blog.hubspot.com/marketing/best-photography-portfolio-websites

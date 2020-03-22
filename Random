@@ -160,3 +160,12 @@ lastScrolltop = scrollTop;
 
 
 }
+
+
+
+.information{
+    background-color: black;
+    grid-area: se;
+    font-family: "Times New Roman", Times, serif;
+    
+}

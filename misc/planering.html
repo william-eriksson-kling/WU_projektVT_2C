@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dokumentation projekt Vt</title>
+    <link rel="stylesheet" href="css/style.css">
 
     <style>
         table, td, th {
@@ -29,9 +30,14 @@
 
     <h3>2.1 Handskiss</h3>
     <!-- Här lägger du en bild på din handskiss av layouten. Viktigt att du beskriver vilka boxelement som ska användas. Visa även hur du tänker med ditt grid (Hur många kolumner?) -->
+    <img src="skiss.jpg" alt="handskiss för layout">
+
 
     <h3>2.2 Schema</h3>
     <!-- Vad ska du göra när? Inte för detaljerat. -->
+    v. 4 - 6 : skelett för hemsidan
+    v. 7 - 10 : Funktioner och detaljer
+    v. 11 - 12: Justering
 
     <table>
         <tr>
@@ -101,7 +107,7 @@
             <td>9</td>
             <td>
             <!-- Vad görs på lektionen vecka 9? --> 
-            Jag har tagit fram bilder till sidan för att fylla om den som exempel för fler . Försökt att fixa scrollfunktion för menyn
+            Jag har tagit fram bilder till sidan för att fylla den som exempel för fler sidor . Försökt att fixa scrollfunktion för menyn
             </td>
             <td>
             <!-- Vad görs utanför lektionen vecka 9? -->
@@ -164,26 +170,33 @@
 
     <h3>Lektion vecka 8</h3>
     <!-- Fyll på med dokumentation här. -->
+    Jag har satt logon på första bilden för mobilen men det finns även en extra logo uppe i hörnet för PC. Jag kände att jag ville att loggan skulle vara det man möts av först, för att påminna om vilken sida man var på. Jag valde att lägga den ovanpå en bild för att inte ta förmycket uppmärksamhet men även så att bakgrunden kan representera själva delsidan (vilken genre av bild som delsidan är dedikerad till)
 
     <h3>Lektion vecka 9</h3>
     <!-- Fyll på med dokumentation här. -->
+    Jag har fyllt en sida med bilder som ska ligga som grund till de resterande sidorna. Jag har även försökt att fixa en funktion där navbaren försvinner vid scroll ner, och visar sig vid scroll upp. Jag har mest bara sökt efter hjälp och har inte riktigt fått det att fungera. Det fungerar någorlunda, där navbaren försvinner till hälften men kan fortfarande synas.
 
     <h3>Lektion vecka 10</h3>
     <!-- Fyll på med dokumentation här. -->
+    Jag har skapat flera nya sidor med innehåll som grundat sig på den första sidan jag fyllde förra veckan. Jag har även försökt men att fixa till funktionen med scroll från förra veckan, dock utan någon framgång. Jag försöker att titta på andra sätt att implementera funktionen (t.ex. med annan kod eller css om det går) men har inte hittat något än. Jag har även kollat lite på hur man skulle kunna ha en hover för varje bild, alltså visa information om en bild (typ beskrivning, datum när det var taget m.m.) när man har pekaren över. Jag vet dock inte om jag kommer hinna fixa detta då det var något kom jag kom på i ett senare stadie av sidan.
 
     <h3>Lektion vecka 11</h3>
     <!-- Fyll på med dokumentation här. -->
+    Var inte på lektionen p.g.a sjukdom
 
     <h3>Lektion vecka 12</h3>
     <!-- Fyll på med dokumentation här. -->
+    Jag har nu skaffat två nya sidor för information om fotografen men också för kontaktinformation. Jag valde att ha två olika sidor för detta på mobilen med att informationen finns på samma sida för PC. Jag har även lagt till kontaktinformation nere i footern på PC så att man slipper gå in på informationssidan. Jag valde att inte ha detta på mobilen för att det skulle se lite för "stökigt" ut. 
 
     <h2>4. Testning</h2>
     <!-- Testa i Chrome + Firefox eller Safari (på både dator och mobil). Skiljer sig resultatet? Har du behövt anpassa ditt kod/innehåll efter de olika webbläsarna? Hur gick valideringen? Vad säger contrastchecker.com om text/bakgrundsfärg? Hur ser resultatet ut på en riktig telefon? -->
-
+    Jag har inte testat hemsidan på en riktig mobil men jag har använt mig av verkyget för inspektering som Chrome har. Därför har jag även optimerat sidan utefter chrome och inte tänkt på ex. explorer så mycket. För explorer så blev det problem med grid-template för sidan vilket gjorde det näst intill omöjligt att använda. För Firefox så var det bara lite små css-fel såsom fel textstorlek för mobil. När jag validerade min kod så hittade den inga fel med css och bara några mindre fel med html. Dessa var snarare rekommendationer på saker jag kunde ändra och inget som förstörde koden i stunden. Vad det gällde contrastchecker så använde jag mig bara av svart och vit när det kom till text, vilket visade på att allt gick igenom.
     <h2>5. Utvärdering</h2>
     <!-- Ex: Vad gick bra/mindre bra? (i arbetet/din förmåga).
     Nyanserat: "hur hade det blivit om jag istället hade...?"
     Konkreta förbättringsförslag i produkt + process. -->
+
+    Jag hade ganska lätt för att börja med projektet. Jag fick till en grund snabbt och visste nästan exakt vad jag ville ha på sidan. Jag kunde fylla den med bilder från unsplash då jag inte i skrivandes stund hade tillräckligt med bilder själv för att fylla sidan. Sidan själv kan såklart fyllas med fler bilder, text och annat innehåll men jag valde att bara göra en grund. Det största och första problemet jag stötte på var funktionen med en navbar som försvinner/visar sig när man scrollar. Det tog upp ganska mycket tid och jag fick skriva om min css-kod flera gånger så att den kunde passa olika koder som fanns. Tyvärr så fick jag den aldrig att fungera utan jag valde istället att låta den ligga på samma position hela tiden. Hade jag lagt ner lite mer tid så hade jag kanske fått det att fungera (var halvvägs där) men jag ville få till en hel sida först. Sedan kollade på en funktion där en ruta kunde komma upp med information om en bild, när man höll muspekaren över. Detta hade skapat mer innehåll för sidan på PC men jag hann tyvärr inte med denna funktion heller. Om jag skulle förbättra min produkt så skulle jag gärna försöka implementera dessa funktioner, men jag skulle även vilja utveckla/designa texten mer (lära mig mer om hur man stylar text på en djupare nivå). Hade jag valt att göra detta så tror jag att sidan hade fått en större/bättre känsla av professionalitet men även en bättre estetisk känsla. Just nu så ger den en känsla av en hemmagjord sida främst tack vare sidan med information. 
 
 </body>
 </html>
