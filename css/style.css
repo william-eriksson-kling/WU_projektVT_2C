@@ -134,17 +134,17 @@
     left: 10%;
     right: 10%;
     position: absolute;
-    border: 5px solid white;
+    border: 1vw solid white;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: "Times New Roman", Times, serif;
-    font-size: 65px;
+    font-size: 15vw;
     padding: 3px;
 }
 .img1{  
     max-width: 100vw;
     position: relative;
-    z-index: -1;
+    z-index: -10;
 }
 .img2{
     max-width: 100vw;
@@ -169,6 +169,7 @@
 
 .dok{
     height: 5vh;
+    width: 100vw;
 }
 
 .dok p{
@@ -248,19 +249,19 @@
     left: 20%;
     right: 20%;
     position: absolute;
-    border: 7px solid white;
+    border: 1vw solid white;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: "Times New Roman", Times, serif;
-    font-size: 145px;
+    font-size: 10vw;
 }
 .logo2{
     display: flex;
     position: absolute;
     color: white;
     font-family: "Times New Roman", Times, serif;
-    font-size: 70px;
-    padding: 10px;
+    font-size: 5vw;
+    padding: 1vw;
     left: 3vw;
 }
 
@@ -397,19 +398,19 @@
         left: 20%;
         right: 20%;
         position: absolute;
-        border: 7px solid white;
+        border: 1vw solid white;
         color: white;
         background-color: rgba(0, 0, 0, 0.5);
         font-family: "Times New Roman", Times, serif;
-        font-size: 55px;
+        font-size: 10vw;
     }
     .logo2{
         display: flex;
         position: absolute;
         color: white;
         font-family: "Times New Roman", Times, serif;
-        font-size: 50px;
-        padding: 10px;
+        font-size: 5vw;
+        padding: 1vw;
         left: 3vw;
     }
     
